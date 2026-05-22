@@ -1,0 +1,5 @@
+import json
+from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
+from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
+
+# Bot funksiyasi uchun asosiy fayl.
